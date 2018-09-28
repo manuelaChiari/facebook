@@ -1,0 +1,793 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+  <title>Facebook do Lang</title>
+  <link rel="icon" 
+  type="image/png" 
+  href="img/iconfacebook.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <style type="text/css">
+  .botoes{background-color: #F5F6F7;
+    height: 90%;
+    width:90%;
+    margin-top: -90px;
+    margin-left: 30px; 
+    padding: 0px;
+    border-radius: 0px;
+    font-size: 12px;
+  }
+  .linha-vertical {
+    height: 30px;
+    border-left: 1px solid;
+    color: #F1F1F3;
+  }
+
+  .branco{
+    color: white;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 5px;
+  }
+  .centro i{
+    padding-left:2%;
+    padding-right:2%;
+    font-size: 22px;
+    padding-top: 5px;
+
+  }
+
+  .linha{
+    border-left: 1px solid #3B5DA1;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    height: 25px;
+  }
+  .linha2{
+    border-left: 2px solid #F1F1F3;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    height: 25px;
+  }
+  .linhadropdown{
+    width:95%;
+  }
+  .dropdown-menu {
+    font-size: 12px;
+    font-family: sans-serif;
+  }
+  .dropdown-menu h6{
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  .seta a:hover{
+    background-color:#4267B2;
+    color:white;
+  }
+
+  .dropdown i{
+    color: black;
+  }
+  .esquerda{
+    font-family:Tahoma;
+    font-size: 16px;
+    margin-top: 1%;
+  }
+
+  .esquerda img{
+    margin-right:1%;
+    margin-top:1%;
+  }
+  .esquerda span{
+    margin-top:-3%;
+  }
+  .esquerda button{
+   background-color:#E9EBEE;
+   padding:0;
+   margin-top:1%;
+ }
+ .esquerda button:hover{
+  background-color: #F5F6F7;
+}
+.esquerda h6{
+  margin-left:-2%;
+  font-size:13px;
+  color: gray;
+  font-weight: bold;
+  margin-top:1%;
+}
+.principal span{
+  background-color: #F5F6F7;
+  border-radius:40%;
+}
+.principal{
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+
+</style>
+</head>
+<body style="background-color: #E9EBEE">
+  <nav style="background-color:#4267B2" class="navbar navbar-expand-lg">
+    <div class="row">
+      <div class="col-3">
+      </div>
+      <div class="col-5">
+        <form class="form-inline">
+          <img style="height:25px; width:5%;margin-right: 10px;margin-top: 1%" src="iconfacebook.png">
+          <div style="height:25px;width: 80%; margin-top: 1%; margin-right:5%" class="input-group">
+            <input class="form-control" type="search" placeholder="Pesquisar" aria-label="Pesquisar" aria-describedby="searchicon">
+            <div class="input-group-append">
+              <span class="input-group-text" id="searchicon"><i class="fas fa-search"></i></span>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="col centro">
+        <div class="row">
+          <img style="border-radius:50%; width:6%; height:3%" src="img/fotodeperrfil.jpg">
+
+          <a href="profile.html"><span class="branco"  data-toggle="tooltip" data-placement="bottom" title="Perfil">Lang</span></a>
+
+          <span class="linha"></span>
+          <a href="timeline.html" style="text-decoration: none"><span class="branco">Página Inicial </span></a>
+          <span class="linha"></span>
+          <span class="branco">Criar </span>
+
+          <span class="linha"></span>
+
+          <div class="dropdown"> 
+            <a class="nav-link dropdown py-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i style="font-size: 120%" class="fas fa-user-friends"></i>
+            </a>
+            <div class="dropdown-menu" style="width:460px;" aria-labelledby="navbarDropdown">
+              <div>
+                <div class="row">
+                  <div class="col-4.1" style="margin-left: 3%"><h6>Solicitações de amizade</h6></div>
+                  <div class="col" style="margin-left: 25%">
+                    <a href="#" style="float-right">Encontrar amigos . </a> <a href="#" style="float-right"> Configurações</a>
+                  </div> 
+                </div>
+                
+                <div class="row">
+                  <div class="col-5">
+                    <img style="border-radius:50%;width:40%;height:90%;" src="img/renato.jpg">
+                  </div>
+                  <div class="col-7">
+                    <div class="row">
+                      <a href="#" style="text-decoration: none; font-weight: bold; margin-left: -40%">Renatinho do Atrito</a>
+                    </div>
+                    <div class="row">
+                      <p style="margin-left: -40%">12 amigos em comum</p>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <button style="background-color: #4267B2; color: white; font-weight: bold;margin-left: -100%; margin-top: -5%">Confirmar</button>
+                      </div>
+                      <div class="col">
+                        <button style="background-color: #F5F6F7; color: black; font-weight: bold; margin-left: -150%; margin-top: -5%">Excluir</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                 <div class="row" style="margin-top: 3%">
+                  <div class="col-5">
+                    <img style="border-radius:50%;width:40%;height:90%;" src="img/aline.jpg">
+                  </div>
+                  <div class="col-7">
+                    <div class="row">
+                      <a href="#" style="text-decoration: none; font-weight: bold; margin-left: -40%">Aline do Partido do Trabalhador</a>
+                    </div>
+                    <div class="row">
+                      <p style="margin-left: -40%">70 amigos em comum</p>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <button style="background-color: #4267B2; color: white; font-weight: bold;margin-left: -100%; margin-top: -5%">Confirmar</button>
+                      </div>
+                      <div class="col">
+                        <button style="background-color: #F5F6F7; color: black; font-weight: bold; margin-left: -150%; margin-top: -5%">Excluir</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+
+
+                 <div class="row" style="margin-top: 3%">
+                  <div class="col-5">
+                    <img style="border-radius:50%;width:40%;height:90%;" src="img/malu.jpg">
+                  </div>
+                  <div class="col-7">
+                    <div class="row">
+                      <a href="#" style="text-decoration: none; font-weight: bold; margin-left: -40%">Maluzona da agricultura</a>
+                    </div>
+                    <div class="row">
+                      <p style="margin-left: -40%">2 amigos em comum</p>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <button style="background-color: #4267B2; color: white; font-weight: bold;margin-left: -100%; margin-top: -5%">Confirmar</button>
+                      </div>
+                      <div class="col">
+                        <button style="background-color: #F5F6F7; color: black; font-weight: bold; margin-left: -150%; margin-top: -5%">Excluir</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+          
+
+          <div class=" dropdown" >
+            <a class="nav-link dropdown py-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-left: -30%">
+              <i style="font-size: 120%" class="fab fa-facebook-messenger"></i>
+            </a>
+            <div class="dropdown-menu" style="width:460px;" aria-labelledby="navbarDropdown">
+              <div class="row">
+                <div class="col-1">
+                  <h6 style="float-left"> Recentes</h6>
+                  
+                </div>
+                <div class="col-6">
+                  <h6 style="float-left; margin-left: 7%; color: gray"> Solicitações de mensagem</h6>
+                </div>
+                
+                <div class="col">
+                  <a href="#" style="float-right"> Novo grupo . </a> <a href="#" style="float-right"> Nova mensagem</a>
+                </div>
+              </div>
+              
+              <div class="row m-0">
+                <img style="border-radius:50%;width:12%;height:12%;" src="img/manuela.jpg">
+                <p style="padding-top:3%"> <b>Manuela</b>
+                  <div class="row">
+                    <i  style="color: green; font-size: 90%; margin-left: 160%;margin-top: 100%" class="fas fa-circle"></i>
+                  </div>  </p>
+                  <div class="row" style="margin-top: 6%; margin-left: -11%">
+                    ME DA 10 PELO AMOR DE DEUS!
+                  </div>
+                </div>
+                <hr>
+                <div class="row m-0">
+                  <img style="border-radius:50%;width:12%;height:12%;" src="img/beatriz.jpg">
+                  <p style="padding-top:3%"> <b> Beatriz </b>
+                    <div class="row">
+                      <i  style="color: green; font-size: 90%; margin-left: 160%;margin-top: 100%" class="fas fa-circle"></i>
+                    </div>  </p>
+                    <div class="row" style="margin-top: 6%; margin-left: -11%">
+                      Vc vai no rodeio ne?
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row m-0">
+                    <img style="border-radius:50%;width:12%;height:12%;" src="img/felps.jpg">
+                    <p style="padding-top:3%"> <b>Felps </b>
+                    </p>
+                    <div class="row" style="margin-top: 6%; margin-left: -11%">
+                      <p style="margin-left: -12%">KKKKKKKKKKKKKKK oi</p>
+                    </div>
+                  </div>
+
+                  <div class="row">               
+                    <div class="col">
+                      <a href="#" style="float-left;"> Ver tudo no messenger</a> 
+                      <a href="#" style="float-right; margin-left: 70%;"> Marcar todas como lidas</a>
+                    </div>
+                  </div> 
+                </div>
+              </div>
+
+              <div class=" dropdown" style="margin-left: -3%" >
+                <a class="nav-link dropdown py-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-left: -30%">
+                  <i style="font-size: 120%"  class="fas fa-bell"></i>
+                </a>
+                <div class="dropdown-menu" style="width:460px;" aria-labelledby="navbarDropdown">
+                  <div class="row">
+                    <div class="col">
+                      <h6 style="float-left"> Notificações</h6>
+                    </div>
+                    <div class="col">
+                      <a href="#" style="float-right"> Marcar todas como lidas </a> <a href="#" style="float-right"> Configurações</a>
+                    </div>
+                  </div>
+                  <div class="row m-0 bg-light">
+                    <div class="col">
+                      <font color="gray"> NOVAS </font>
+                    </div>
+                  </div>
+                  <div class="row m-0" style="background-color: #EDF2FA">
+                    <img style="border-radius:50%;width:12%;height:12%;" src="img/manuela.jpg">
+                    <p style="padding-top:3%"> <b>Manuela </b>comentou na sua foto.</p>
+                  </div>
+                  <div class="row m-0 bg-light">
+                    <div class="col">
+                      <font color="gray"> ANTERIORES </font>
+                    </div>
+                  </div>
+                  <div class="row m-0 pt-2 pb-2">
+                    <img style="border-radius:50%;width:12%;height:12%;" src="img/beatriz.jpg">
+                    <p style="padding-top:3%"> <b> Beatriz </b> marcou você em uma pulicação. </p>
+                  </div>
+                  <hr class="m-0">
+                  <div class="row m-0 pt-2 pb-2">
+                    <img style="border-radius:50%;width:12%;height:12%;" src="beatriz.jpg">
+                    <p style="padding-top:3%"> <b>Beatriz </b>marcou você em uma publicação. </p>
+                  </div>
+                  <hr class="m-0">
+                  <div class="row m-0 pt-2 pb-2">
+                    <img style="border-radius:50%;width:12%;height:12%;" src="img/manuela.jpg">
+                    <p style="padding-top:3%; padding-right:1%"> <b> Manuela </b> reagiu no seu comentário. </p>
+                  </div>
+                  <hr class="m-0" style="padding-bottom:0.8%">
+                  <hr class="m-0">
+                  <div class="row m-0">
+                    <a style="padding-left:44%; font-weight: bold;" href="#">Ver Tudo</a>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <span class="linha"></span>
+
+              <div class="dropdown">
+                <a class="nav-link dropdown py-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-left: -30%">
+                 <i style="font-size: 120%" class="fas fa-question-circle"></i>
+               </a>
+               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <div class="row">
+                  <div class="col">
+                    <h6> Ajuda rápida </h6>
+                  </div>
+                  <div class="col">
+                    <a href="#"> Central de ajuda</a>
+                  </div>
+                </div>
+                <form class="form-inline">
+                  <input class="form-control" type="search" placeholder="Pesquisar" aria-label="Pesquisar" aria-describedby="searchicon">
+                  <div class="input-group-append">
+                    <span class="input-group-text" id="searchicon" style="margin-top: -80%; margin-left: 335%"><i class="fas fa-search"></i></span>
+                  </div>
+                </form>
+                <h6 style="color:#8D949E; padding-top:2%">AJUDA COM ESTA PÁGINA</h6>
+                <a class="dropdown-item" href="#">Página Inicial</a>
+                <a class="dropdown-item" href="#">Linha do tempo</a>
+
+                <a class="dropdown-item" href="#">Bate-papo e mensagens</a>
+                <a class="dropdown-item" href="#">Segurança da conta</a>
+                <a class="dropdown-item" href="#">Privacidade</a>
+                <hr class="m-0" style="padding-bottom:2%; background-color:#f5f6f7">
+                <hr class="m-0">
+                <a class="dropdown-item" href="#"><i style="font-size: 100%" class="fas fa-lock"></i>Verificação de Privacidade</a>
+                <hr class="m-0">
+                <a class="dropdown-item" href="#"><i style="font-size: 100%" class="fas fa-cog"></i>Atalhos de privacidade</a>
+                <hr class="m-0" style="padding-bottom:2%; background-color:#f5f6f7">
+                <hr class="m-0">
+                <a class="dropdown-item" href="#"><i style="font-size: 100%" class="fas fa-envelope"></i>Caixa de entrada de suporte</a>
+                <hr class="m-0">
+                <a class="dropdown-item" href="#"><i style="font-size: 100%" class="fas fa-exclamation-triangle"></i>Relatar um problema</a>
+              </div>
+            </div>
+
+            <div class=" dropdown">
+              <a class="nav-link dropdown py-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               <i  class="fas fa-sort-down" ></i>
+             </a>
+             <div class="dropdown-menu seta" aria-labelledby="navbarDropdown">
+              <p class="my-2" style="color: gray; margin-left:5%"> Suas Páginas </p>
+              <hr class="linhadropdown">
+              <a class="dropdown-item" href="#">Gerenciar Páginas</a>
+              <hr class="linhadropdown">
+              <a class="dropdown-item" href="#">Novos Grupos</a>
+              <hr class="linhadropdown">
+              <a class="dropdown-item" href="#">Publicidade no Facebook</a>
+              <hr class="linhadropdown">
+              <a class="dropdown-item" href="#">Registro de Atividades</a>
+              <a class="dropdown-item" href="#">Preferências do Feed de Notícias</a>
+              <a class="dropdown-item" href="#">Configurações</a>
+              <a class="dropdown-item" href="index.html">Sair</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </nav>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+          <div class="row"><img style="width: 90%; height: 280px" src="img/fotodecapa.jpg"></div>
+          <div class="row">
+            <div class="col-5">
+              <img style="margin-top: -125px; padding-left: 25px" src="img/fotodeperrfil.jpg">
+              <h4 style="color: white; margin-top: -70px; padding-left: 200px;"Rafael Chavoso Languinho</h4></div>
+              <div class="col-2">
+                <div class="dropdown">
+                  <a style="width: 60%; height: 30px" class=" btn dropdown-toggle botoes " href="#" role="button"  id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span style="color: #705B67; " class="align-middle"><i class="fas fa-check "></i> Amigos</span>
+                  </a>
+
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink" style="font-size:12px ">
+                    <a class="dropdown-item" href="#">Receber Notificações</a>
+                    <hr>
+                    <a class="dropdown-item" href="#">Melhores Notificações</a>
+                    <a class="dropdown-item" href="#">Conhecidos</a>
+                    <a class="dropdown-item" href="#">Adicionar a outra lista...</a>
+                    <hr>
+                    <a class="dropdown-item" href="#">Sugira amigos...</a>
+                    <hr>
+                    <a class="dropdown-item" href="#">Desfazer amizade</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2">
+                <a style="width: 50%; height: 30px" class=" btn botoes" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                  <span style="color: #705B67; " class="align-middle"><i class="fas fa-rss"  " ></i> Seguir</span>
+                </a>
+              </div>
+              <div class="col-2">
+                <a style="width: 60%; margin-left: -65px; height: 30px" class=" btn botoes" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                  <span style="color: #705B67;" class="align-middle"><i class="fab fa-facebook-messenger"></i> Mensagem</span>
+                </a>
+              </div>
+              <div class="col-1">
+                <div class="dropdown">
+                  <a style="width: 60px; height: 30px; margin-left: -147px" class=" btn dropdown-toggle botoes " href="#" role="button"  id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span style="color: #705B67; " class="align-middle"><i class="fas fa-check "></i> ...</span>
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink" style="font-size:12px ">
+                    <a class="dropdown-item" href="#">Ver amizade</a>
+                    <hr>
+                    <a class="dropdown-item" href="#">Cutucar</a>
+                    <hr>
+                    <a class="dropdown-item" href="#">Dar feedback ou denunciar este perfil</a>
+                    <a class="dropdown-item" href="#">Bloquear</a>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="row" style="background-color: white; margin-top: -23px; height: 40px; margin-right: 80px">
+            <div class="col-3"></div>
+            <div class="col-3 linha-vertical" style="margin-top: 9px; "><h5 style="color: #4B4F56">Linha do Tempo</h5></div>
+            <div class="col linha-vertical" style="margin-left: -4%;margin-top: 9px; "><h5 style="color: #365999">Sobre</h5></div>
+            <div class="col linha-vertical" style="margin-left: -8%;margin-top: 9px; "><h5 style="color: #365999">Amigos</h5></div>
+            <div class="col linha-vertical" style="margin-left: -8%;margin-top: 9px; "><h5 style="color: #365999">Fotos</h5></div>
+            <div class="col linha-vertical" style="margin-left: -8%;margin-top: 9px; "><h5 style="color: #365999">Mais</h5></div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <div class="card" style="width: 18rem; margin-top: 15px ">
+                <div class="card-body">
+                  <h5 class="card-title"><img src="img/iconapresentação.png">Apresentação</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">VAMOS FAZER UMA PAGINA DÍFICIL PRA VOCÊS TIRAREM ZERO AMIGOS?</h6>
+                  <hr>
+                  <p class="card-text" style="font-size: 12px">Trabalha como escravo dos alunos bosta que eu tenho</p>
+                  <p class="card-text" style="font-size: 12px">Trabalhou como desempregapd</p>
+                  <p class="card-text" style="font-size: 12px">Estudou em casa e no google</p>
+                  <p class="card-text" style="font-size: 12px">Mora em nossos corações</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem; margin-top: 15px ">
+                <div class="card-body">
+                  <h5 class="card-title"><img src="img/iconfoto.png">Fotos</h5>
+                  <img src="foto4.jpg" style="width: 50%">
+                  <img style="width: 50%; float: right; margin-top: 4%; padding-left: 2%" src="foto1.jpg">
+                  <img src="foto2.jpg" style="width: 50%; padding-top: 3%; margin-top: 15%">
+                  <img style="width: 50%; float: right; margin-top: 4%; padding-left: 2%; padding-top: 3%" src="fot03.jpg">
+                </div>
+              </div>
+              <div class="card" style="width: 18rem; margin-top: 15px ">
+                <div class="card-body">
+                  <h5 class="card-title"><img src="img/iconamigos.png">Amigos</h5>
+                  <div class="row">
+                    <div class="col">
+                      <img src="nicolas.jpg" style="width: 100px">
+                      <p style="color: white; margin-top: -20%; font-weight: bold;">Nicolas</p>
+                    </div>
+                    <div class="col">
+                      <img style="width: 100px" src="img/marcelo.jpg">
+                      <p style="color: white; margin-top: -20%; font-weight: bold;">Marcelo Socratico</p>
+                    </div>    
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <img src="img/pedro.jpg" style="width: 100px">
+                      <p style="color: white; margin-top: -42%; font-weight: bold;">Pedro Foto borrada</p>
+                    </div>
+                    <div class="col">
+                     <img style="width: 100px" src="img/salina.jpg">
+                     <p style="color: white; margin-top: -42%; font-weight: bold;">Salina cheiroso</p>
+                   </div>
+
+                 </div>
+
+
+               </div>
+             </div>
+           </div>
+           <div class="col-7" style="margin-top: 15px">
+            <form>
+              <div class="card">
+                <div class="card-header">
+                  <img src="img/lapis.png">
+                  <span style="font-weight: bold; color: gray">Criar Publicação</span>
+                  <img src="img/foto.png">
+                  <span style="font-weight: bold; color: gray">Foto/vídeo</span>
+                </div>
+
+                <div class="card-body">
+                  <input type="" name="algumacoisa" style="margin-left:60px; height: 80px; width: 430px; border: none; " placeholder="No que você está pensando?">
+                  <img src="img/fotodeperrfil.jpg" style="border-radius:70%; width:10%; margin-top: -100px ">
+                  <hr style="margin-top: -10px">
+                  <img src="img/fotovideo.png">
+                  <span style="font-weight: bold; color: gray">Foto/vídeo</span>
+                  <img src="img/amigos.png" style="padding-left: 25px">
+                  <span style="font-weight: bold; color: gray">Marcar amigos</span>
+                  <img src="img/Sentimentos.png">
+                  <span style="font-weight: bold; color: gray; padding-left: 8px">Sentimentos/atividade</span>
+                  <span style="font-weight: bold; color: gray">...</span>
+                </div>
+                <div class="card-footer">
+                  <button type="submit" style="background-color: #4267B2; color: white; font-weight: bold; float: right">Publicar</button>
+                  <img src="img/foto.png" style="float: right; padding-right: 25px">
+                </div>
+              </div>
+            </form>
+    <div class="card" style="margin-top:5% ">
+            <div class="row">
+              <div class="col-3">
+                <img src="img/fotodeperrfil.jpg" style="border-radius:70%; width:50%; margin-left: 8%;margin-top: 8% ">
+              </div>
+              <div class="col-9" style="margin-left: -7%; margin-top: 2%">
+                <div class="row">
+                  <a href="#" style="text-decoration: none"><span style="font-weight: bold">Languinho</span></a>
+                </div>
+                <div class="row">
+                  <span style="font-size: 80%; color: gray">9 de fevereiro</span>
+                  <img src="img/coisinhofoto.png" style="padding-left: 1%">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="row">
+                <span style="margin-left: 30%">Olha que menina de ibaté</span>
+              </div>
+              <div class="row">
+               <img src="img/bia.jpg" style="width: 90%; margin-left:10%; height: 90%">
+             </div>
+           </div>
+           <div class="row" style="margin-top: 0%">
+            <div class="col-2">
+              <img src="img/curtirfoto.png" style="margin-left: 3%; margin-top: 0%; width: 70%; height: 70%;">
+            </div>
+            <div class="col-10" style="margin-left: -6%">
+              <span style="font-size: 90%; color: gray">Laura Okuha, SilSil cheirosa e outras 200.565 pessoas</span>
+            </div>
+            <div class="row" style="margin-top: 1%">
+              <div class="col-2" style="margin-left: 20%">
+                <img src="img/likefoto.png" style="margin-left: 100%; float: right">
+                <div class="row" style="margin-top: -1%; margin-left: 120%">
+                  <a href="#" style="text-decoration: none; color: gray; font-weight: bold; float: left">Curtir</a>
+                </div>
+              </div>
+              <div class="col-4">
+                <img src="img/comentarfoto.png" style="margin-left: 100%; float: right">
+                <div class="row" style="margin-top: -1%; margin-left: 120%">
+                  <a href="#" style="text-decoration: none; color: gray; font-weight: bold; float: left">Comentar</a>
+                </div>
+
+              </div>
+              <div class="col-6" >
+                <div class="row" style="margin-left: 255%; margin-top: -17%">
+                  <img src="img/compartilharfoto.png">
+                </div>
+                <div class="row" style="margin-left: 280%;margin-top: -17%">
+                  <a href="#" style="text-decoration: none; color: gray; font-weight: bold;left">Compartilhar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+          <div class="card" style="margin-top:5% ">
+            <div class="row">
+              <div class="col-3">
+                <img src="img/fotodeperrfil.jpg" style="border-radius:70%; width:50%; margin-left: 8%;margin-top: 8% ">
+              </div>
+              <div class="col-9" style="margin-left: -7%; margin-top: 2%">
+                <div class="row">
+                  <a href="#" style="text-decoration: none"><span style="font-weight: bold">Languinho</span></a>
+                </div>
+                <div class="row">
+                  <span style="font-size: 80%; color: gray">9 de fevereiro</span>
+                  <img src="img/coisinhofoto.png" style="padding-left: 1%">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="row">
+                <span style="margin-left: 30%">Olha que menina de São Carlos</span>
+              </div>
+              <div class="row">
+               <img src="img/manu.jpg" style="width: 90%; margin-left:10%; height: 90%">
+             </div>
+           </div>
+           <div class="row" style="margin-top: 0%">
+            <div class="col-2">
+              <img src="img/curtirfoto.png" style="margin-left: 3%; margin-top: 0%; width: 70%; height: 70%;">
+            </div>
+            <div class="col-10" style="margin-left: -6%">
+              <span style="font-size: 90%; color: gray">Laura Okuha, SilSil cheirosa e outras 200.565 pessoas</span>
+            </div>
+            <div class="row" style="margin-top: 1%">
+              <div class="col-2" style="margin-left: 20%">
+                <img src="img/likefoto.png" style="margin-left: 100%; float: right">
+                <div class="row" style="margin-top: -1%; margin-left: 120%">
+                  <a href="#" style="text-decoration: none; color: gray; font-weight: bold; float: left">Curtir</a>
+                </div>
+              </div>
+              <div class="col-4">
+                <img src="img/comentarfoto.png" style="margin-left: 100%; float: right">
+                <div class="row" style="margin-top: -1%; margin-left: 120%">
+                  <a href="#" style="text-decoration: none; color: gray; font-weight: bold; float: left">Comentar</a>
+                </div>
+
+              </div>
+              <div class="col-6" >
+                <div class="row" style="margin-left: 255%; margin-top: -17%">
+                  <img src="img/compartilharfoto.png">
+                </div>
+                <div class="row" style="margin-left: 280%;margin-top: -17%">
+                  <a href="#" style="text-decoration: none; color: gray; font-weight: bold;left">Compartilhar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:5% ">
+          <div class="row">
+            <div class="col-3">
+              <img src="img/fotodeperrfil.jpg" style="border-radius:70%; width:50%; margin-left: 9%;margin-top: 8% ">
+            </div>
+            <div class="col-9" style="margin-left: -7%; margin-top: 2%">
+              <div class="row">
+                <a href="#" style="text-decoration: none"><span style="font-weight: bold">Languinho</span></a>
+              </div>
+              <div class="row">
+                <span style="font-size: 80%; color: gray">14 de setembro de 2018</span>
+                <img src="img/coisinhofoto.png" style="padding-left: 1%">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="row">
+              <span style="margin-left: 12%">olha que foto de qualidade</span>
+            </div>
+            <div class="row">
+             <img src="img/pedro.jpg" style="width: 90%; margin-left: 10%; height: 90%">
+           </div>
+         </div>
+         <div class="row" style="margin-top: 0%">
+          <div class="col-2">
+            <img src="img/curtirfoto.png" style="margin-left: 3%; margin-top: 0%; width: 70%; height: 70%;">
+          </div>
+          <div class="col-10" style="margin-left: -6%">
+            <span style="font-size: 90%; color: gray">Carlão Guimarães, SilSil cheirosa e outras 125.523 pessoas</span>
+          </div>
+          <div class="row" style="margin-top: 1%">
+            <div class="col-2" style="margin-left: 20%">
+              <img src="img/likefoto.png" style="margin-left: 100%; float: right">
+              <div class="row" style="margin-top: -1%; margin-left: 120%">
+                <a href="#" style="text-decoration: none; color: gray; font-weight: bold; float: left">Curtir</a>
+              </div>
+            </div>
+            <div class="col-4">
+              <img src="img/comentarfoto.png" style="margin-left: 100%; float: right">
+              <div class="row" style="margin-top: -1%; margin-left: 120%">
+                <a href="#" style="text-decoration: none; color: gray; font-weight: bold; float: left">Comentar</a>
+              </div>
+            </div>
+            <div class="col-6" >
+              <div class="row" style="margin-left: 255%; margin-top: -17%">
+                <img src="img/compartilharfoto.png">
+              </div>
+              <div class="row" style="margin-left: 280%;margin-top: -17%">
+                <a href="#" style="text-decoration: none; color: gray; font-weight: bold;left">Compartilhar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="margin-top:5% ">
+        <div class="row">
+          <div class="col-3">
+            <img src="img/fotodeperrfil.jpg" style="border-radius:70%; width:50%; margin-left: 8%;margin-top: 8% ">
+          </div>
+          <div class="col-9" style="margin-left: -7%; margin-top: 2%">
+            <div class="row">
+              <a href="#" style="text-decoration: none"><span style="font-weight: bold">Languinho</span></a>
+            </div>
+            <div class="row">
+              <span style="font-size: 80%; color: gray">19 de outubro de 2018</span>
+              <img src="img/coisinhofoto.png" style="padding-left: 1%">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="row">
+            <span style="margin-left: 30%">esse cara ama falar de MAN WAN LAN PAN mesmo que ninguem entenda KKKKKK</span>
+          </div>
+          <div class="row">
+           <img src="img/salina.jpg" style="width: 90%; margin-left: 10%; height: 90%">
+         </div>
+       </div>
+       <div class="row" style="margin-top: 0%">
+        <div class="col-2">
+          <img src="img/curtirfoto.png" style="margin-left: 3%; margin-top: 0%; width: 70%; height: 70%;">
+        </div>
+        <div class="col-10" style="margin-left: -6%">
+          <span style="font-size: 90%; color: gray">tifanny, SilSil cheirosa e outras 200.516 pessoas</span>
+        </div>
+        <div class="row" style="margin-top: 1%">
+          <div class="col-2" style="margin-left: 20%">
+            <img src="img/likefoto.png" style="margin-left: 100%; float: right">
+            <div class="row" style="margin-top: -1%; margin-left: 120%">
+              <a href="#" style="text-decoration: none; color: gray; font-weight: bold; float: left">Curtir</a>
+            </div>
+          </div>
+          <div class="col-4">
+            <img src="img/comentarfoto.png" style="margin-left: 100%; float: right">
+            <div class="row" style="margin-top: -1%; margin-left: 120%">
+              <a href="#" style="text-decoration: none; color: gray; font-weight: bold; float: left">Comentar</a>
+            </div>
+          </div>
+          <div class="col-6" >
+            <div class="row" style="margin-left: 255%; margin-top: -17%">
+              <img src="img/compartilharfoto.png">
+            </div>
+            <div class="row" style="margin-left: 280%;margin-top: -17%">
+              <a href="#" style="text-decoration: none; color: gray; font-weight: bold;left">Compartilhar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+</div>
+<div class="col-6">
+
+</div>
+</div>
+</div> 
+<div class="col-3"></div>
+</div>
+</div>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
